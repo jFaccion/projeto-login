@@ -26,7 +26,7 @@ html, body {
 main {
     position: absolute;
     width: 250px;
-    height: 550px;
+    height: 600px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -59,10 +59,11 @@ main {
 #login > p {
     font-size: 14px;
     line-height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #email {
+    width: 100%;
     background-color: #A653B8;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -70,9 +71,11 @@ main {
 }
 
 #senha {
+    width: 100%;
     background-color: #A653B8;
     padding-bottom: 10px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 input {
@@ -81,7 +84,6 @@ input {
     height: 25px;
     padding-right: 25px;
 }
-
 
 span {
     color: white;
