@@ -79,14 +79,17 @@ main {
 }
 
 input {
+    width: calc(100% - 45px);
+    height: 30px;
     border: none;
     border-radius: 5px;
-    height: 25px;
     padding-right: 25px;
+    transform: translateY(3px);
 }
 
 span {
     color: white;
+    width: 30px;
 }
 
 #entrar {
