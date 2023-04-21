@@ -37,6 +37,9 @@
         border-radius: 20px;
         overflow: hidden;
         box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.692);
+
+        transition: width .3s, height .3s;
+        transition-timing-function: ease;
     }
 
     #imagem {
@@ -154,6 +157,9 @@
         border-radius: 20px;
         overflow: hidden;
         box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.692);
+        
+        transition: width .3s, height .3s;
+        transition-timing-function: ease;
     }
 
     #imagem {
